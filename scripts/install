@@ -89,7 +89,7 @@ ynh_script_progression "Adding system configurations related to $app..."
 
 ynh_config_add_nginx
 
-ynh_config_add_fail2ban --logpath="/var/log/nginx/${domain}-error.log" --failregex="pillbug"
+# ynh_config_add_fail2ban --logpath="/var/log/nginx/${domain}-error.log" --failregex="pillbug"
 
 #=================================================
 # INSTALL APP
